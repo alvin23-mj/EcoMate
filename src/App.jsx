@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import HotNews from "./components/HotNews";
 import Dashboard from "./components/Dashboard";
-import Services from "./components/Services";
+import Projects from "./components/Projects";
 import Stats from "./components/Stats";
 import About from "./components/About";
-import LogoSlider from "./components/LogoSlider";
+import Services from "./components/Services";
 import Contact from "./components/Contact";
+import LogoSlider from "./components/LogoSlider";
 import Footer from "./components/Footer";
 
 function App() {
@@ -13,12 +15,14 @@ function App() {
     <div className="font-mulish">
       <Navbar />
       <Hero />
+      <HotNews />
       <Dashboard />
-      <Services />
+      <Projects />
       <Stats />
       <About />
-      <LogoSlider />
+      <Services />
       <Contact />
+      <LogoSlider />
       <Footer />
     </div>
   );
